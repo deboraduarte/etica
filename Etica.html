@@ -3,12 +3,47 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
-
-  {{> hello}}
+  <section>
+    <header class="head-title">
+      <div class="head-title-line"></div>
+      <a href="#" class="head-title-button col-md-offset-8 col-md-2 col-sm-3 col-sm-offset-8 col-xs-3 col-xs-offset-8">Dowload do PPT</a>
+      <span  class="col-md-5 col-md-offset-2 col-sm-8 col-xs-10 col-lg-5 col-lg-offset-2 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+        O uso de Smartphones (title here!)
+      </span>
+    </header>
+    <article class="">
+      <section class="transcription-section">
+        <header>
+          <h1  class="col-md-5 col-md-offset-2 col-sm-8 col-xs-8 col-sm-offset-2 col-xs-offset-2">
+            Transcrição do vídeo
+          </h1>
+        </header>
+        <article>
+          <span class="transcription col-md-8 col-md-offset-2 col-sm-8 col-xs-8 col-sm-offset-2 col-xs-offset-2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </span>
+        </article>
+      </section>
+    </article>
+  </section>
+  <section class="video">
+    <article class="col-md-8 col-md-offset-2 col-xs-8 col-sm-8 col-xs-offset-1 col-sm-offset-1">
+      <iframe width="854" height="480" src="https://www.youtube.com/embed/tsr-5NkNju4" frameborder="0" allowfullscreen></iframe>
+    </article>
+    <footer class="col-md-12 footer col-sm-12 col-xs-12">
+      <span class="col-md-offset-4 col-md-3 col-sm-4 col-sm-offset-4 col-xs-offset-4">
+        Universidade do Vale do Rio dos Sinos - 2015
+        Atividade Acadêmica: Comunicação e Ética
+        Acadêmicos: Débora Duarte e Marina Collet
+      </span>
+    </footer>
+  </section>
 </body>
 
 <template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
 </template>
